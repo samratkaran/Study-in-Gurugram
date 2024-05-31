@@ -2,8 +2,8 @@
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24 bg-red-600">
-     <h1 className="text-3xl bg-red-400 ">Study in Gurugram</h1>
+    <main className="flex min-h-screen flex-col items-center justify-between p-24 bg-red-600 ">
+     <h1 className=" mt-16 ">Study in Gurugram</h1>
      <h1>karan is here</h1>
      <h2>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque libero accusantium eveniet hic alias possimus, ullam ex? Officiis, quo et, vel iusto vero, reprehenderit iure ex suscipit laboriosam cupiditate culpa?
      Voluptate maxime unde similique esse, laboriosam debitis ipsa error dolores illum a, nemo quisquam provident suscipit alias dolorum voluptatibus quas necessitatibus quod cumque. Assumenda accusantium soluta, enim at iure incidunt.

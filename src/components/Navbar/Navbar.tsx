@@ -14,7 +14,7 @@ const Navbar = ({ className }: { className?: string }) => {
   const [active, setActive] = useState<string | null>(null);
   return (
     <>
-    <div className="md:w-full w-full fixed top-navbar flex justify-between pt-3 bg-white">
+    <div className="fixed md:w-full w-full  top-navbar flex justify-between pt-3 bg-white">
      <div className="pl-4">  <Image src={StudyinGurugramLogo}  alt="" /></div>
      <div className="flex flex-col gap-1 pr-6 ">
     

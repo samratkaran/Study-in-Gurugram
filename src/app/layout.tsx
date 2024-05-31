@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar/Navbar";
+import Footer from "@/components/Footer/Footer";
 // import "bootstrap/dist/js/bootstrap.min.js"
 
 
@@ -21,9 +22,12 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <div >
-          <div className="fixed z-50 bg-white h-16 "></div>
-          <Navbar/>
-          </div>{children}</body>
+          <div className="fixed z-50 bg-white h-16 ">
+          <Navbar/></div>
+          </div>{children}
+          <div>
+            <Footer/>
+            </div></body>
     </html>
   );
 }
