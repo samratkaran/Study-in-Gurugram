@@ -2,7 +2,7 @@
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24 bg-red-600 ">
+    <main className="flex min-h-screen flex-col items-center justify-between p-4 bg-red-600 ">
      <h1 className=" mt-16 ">Study in Gurugram</h1>
      <h1>karan is here</h1>
      <h2>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque libero accusantium eveniet hic alias possimus, ullam ex? Officiis, quo et, vel iusto vero, reprehenderit iure ex suscipit laboriosam cupiditate culpa?

@@ -1,0 +1,24 @@
+
+/* Phone screens (portrait and landscape) */
+@media (max-width: 639px) {
+    .image-of-footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+  }
+  
+  /* Laptop screens */
+  /* @media (min-width: 1025px) and (max-width: 1440px) {
+    .image-of-footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+  }
+   */
+
+   .image-of-footer{
+display: flex;
+margin-left: 5rem;
+}

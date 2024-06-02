@@ -20,7 +20,7 @@ const SearchBar = () => {
                 onChange={search}
                 value={query}
             />
-            <button className="bg-white p-1  pl-10">🔍</button>
+            <button className="bg-white p-1  ">🔍</button>
         </div>
     );
 };
