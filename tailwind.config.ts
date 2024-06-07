@@ -22,7 +22,16 @@ const config: Config = {
         'lg': '0.5rem',
         'full': '9999px',
         'large': '12px',
-      }
+      },
+      keyframes: {
+        slide: {
+          '0%': { transform: 'translateX(0)' },
+          '100%': { transform: 'translateX(-100%)' },
+        },
+      },
+      animation: {
+        slide: 'slide 30s linear infinite',
+      },
     },
   },
   plugins: [],
