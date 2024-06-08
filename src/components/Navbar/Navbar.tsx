@@ -89,7 +89,7 @@ const Navbar = () => {
       placeholder="Search"
       className="bg-gray-100 border border-gray-300 rounded-md py-2 pl-3 pr-10 focus:outline-none w-44  sm:text-sm sm:py-1"
     />
-    <FaSearch className="absolute top-2.5 right-3 text-gray-500 sm:top-1.5" />
+    <FaSearch className="absolute top-2.5 right-3 text-gray-500 sm:top-1.5 cursor-pointer" />
   </div>
   <button 
     className="md:hidden" 
