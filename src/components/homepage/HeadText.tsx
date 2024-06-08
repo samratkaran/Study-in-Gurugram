@@ -1,16 +1,19 @@
+// src/components/HeadText.tsx
+
 import React from 'react';
+import clsx from 'clsx'; // Optional: For better class merging
 
 interface HeadTextProps {
   textvalue: string;
+  className?: any; // Optional className prop
 }
 
-const HeadText: React.FC<HeadTextProps> = ({ textvalue }) => {
+const HeadText: React.FC<HeadTextProps> = ({ textvalue, className }) => {
   return (
-    <h1 className='text-center mt-12 mb-12 text-6xl font-black' style={{color:"#183041"}}>
+    <h1 className={clsx('text-center mt-12 mb-12 text-6xl font-black', className)} style={{ color: "#183041" }}>
       {textvalue}
     </h1>
   );
 };
 
 export default HeadText;
-

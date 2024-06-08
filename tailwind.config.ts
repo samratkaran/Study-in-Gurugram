@@ -23,6 +23,9 @@ const config: Config = {
         'full': '9999px',
         'large': '12px',
       },
+      colors: {
+        themeColor: '#183041', // Add your custom color here
+      },
       keyframes: {
         slide: {
           '0%': { transform: 'translateX(0)' },

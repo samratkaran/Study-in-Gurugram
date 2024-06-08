@@ -18,11 +18,11 @@ const images = [image1, image2, image3, image4, image5, image6, image7, image8, 
 
 const ImageSlider: React.FC = () => {
   return (
-    <div className="overflow-hidden relative w-full h-64 md:h-80 lg:h-96">
-      <div className="flex animate-slide">
+    <div className="overflow-hidden relative w-full mb-12">
+      <div className="flex w-max animate-slide">
         {images.map((image, index) => (
-          <div key={index} className="flex-shrink-0 mx-2 sm:mx-3 md:mx-4 lg:mx-6 w-48 md:w-64 lg:w-80 h-full relative">
-            <Image src={image} alt={`Slide ${index + 1}`} layout="fill" objectFit="cover" className="rounded-md" />
+          <div key={index} className="flex-shrink-0 mx-2 sm:mx-3 md:mx-4 lg:mx-6 w-48 md:w-64 lg:w-80 h-8 md:h-64 lg:h-40 relative">
+            <Image src={image} alt={`Slide ${index + 1}`} layout="fill" objectFit="contain" className="rounded-md" />
           </div>
         ))}
       </div>
