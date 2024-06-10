@@ -10,7 +10,7 @@ interface HeadTextProps {
 
 const HeadText: React.FC<HeadTextProps> = ({ textvalue, className }) => {
   return (
-    <h1 className={clsx('text-center mt-12 mb-12 text-6xl font-black', className)} style={{ color: "#183041" }}>
+    <h1 className={clsx('text-center mt-12 mb-12 md:text-6xl text-4xl font-black', className)} style={{ color: "#183041" }}>
       {textvalue}
     </h1>
   );
