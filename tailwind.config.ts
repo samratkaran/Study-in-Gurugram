@@ -24,7 +24,8 @@ const config: Config = {
         'large': '12px',
       },
       colors: {
-        themeColor: '#183041', // Add your custom color here
+        themeColor: '#183041',
+        colorTwo:"#FBFDFF" // Add your custom color here
       },
       keyframes: {
         slide: {

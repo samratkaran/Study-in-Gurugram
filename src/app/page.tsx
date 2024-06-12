@@ -11,8 +11,42 @@ import news from "@/Assets/news.png"
 import CollegeCard from "@/components/homepage/Coursescard/CollegeCard";
 import CarouselCollege from "@/components/homepage/Coursescard/CarouselCollege"
 import CollegeImage from "@/Assets/collegeImage.png"
+import ServicesSection from "@/components/homepage/ServiceSection";
+import WhyChooseUs from "@/components/homepage/whyChoseUs";
+import ImageOne from "@/Assets/imgaeOne.png"
+import ImageTwo from "@/Assets/ImageTwo.png"
+import ImageThree from "@/Assets/ImageThree.png"
+import TestimonialCarousel from "@/components/homepage/TestimonialCarousel";
 
 export default function Home() {
+
+  const testimonials = [
+    {
+      images: [ImageOne, ImageTwo, ImageThree],
+      quote: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+      author: 'John Doe',
+      designation: 'Civil Engineer'
+    },
+    {
+      images: [ImageOne, ImageTwo, ImageThree],
+      quote: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+      author: 'John Doe',
+      designation: 'Civil Engineer'
+    },
+    {
+      images: [ImageOne, ImageTwo, ImageThree],
+      quote: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+      author: 'John Doe',
+      designation: 'Civil Engineer'
+    },
+    {
+      images: [ImageOne, ImageTwo, ImageThree],
+      quote: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+      author: 'John Doe',
+      designation: 'Civil Engineer'
+    },
+    // Add more testimonials as needed
+  ];
 
   const items = [
     { imageSrc: CollegeImage, name: "Great Lakes Institute of Management", location: "Gurgaon", courses: "MBA, PGDM", examsAccepted: "XYZ, XYZ, XYZ", avgPackage: "₹ 50 Lacs" },
@@ -22,7 +56,8 @@ export default function Home() {
     { imageSrc: CollegeImage, name: "Institute 5", location: "City 5", courses: "Course 5", examsAccepted: "Exam 5", avgPackage: "₹ 10 Lacs" },
     { imageSrc: CollegeImage, name: "Institute 6", location: "City 6", courses: "Course 6", examsAccepted: "Exam 6", avgPackage: "₹ 5 Lacs" },
   ];
-  
+
+
   return (
     <main className="flex  flex-col items-center justify-between  bg-white ">
       <div className="mt-24 mb-8 w-full">
@@ -130,6 +165,19 @@ export default function Home() {
           <div className="p-4">
             <CarouselCollege items={items} />
           </div>
+        </div>
+        <div className="our-serivce-chose-us bg-colorTwo">
+          <ServicesSection/>
+          <WhyChooseUs/>
+        </div>
+        <div className="testimonials">
+          <HeadText textvalue="Testimonials"className="mb-4"/>
+          <HeadText textvalue="Our Lovely Students Feedback" className="mt-2"/>
+
+          <div className="container mx-auto p-4">
+      <TestimonialCarousel testimonials={testimonials} />
+     
+    </div>
         </div>
       </div>
     </main>
