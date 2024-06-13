@@ -40,40 +40,40 @@ const Navbar = () => {
                 <div className="h-0.5 bg-yellow-500 scale-x-0 group-hover:scale-x-100 transition-transform origin-left"></div>
               </div>
               <div className="group">
-                <Link href="/team" className="text-white ">
+                <Link href="/about" className="text-white ">
                 About Us
                 </Link>
                 <div className="h-0.5 bg-yellow-500 scale-x-0 group-hover:scale-x-100 transition-transform origin-left"></div>
               </div>
               <div className="group">
-                <Link href="/projects" className="text-white ">
+                <Link href="/universities" className="text-white ">
                 Universities
                 </Link>
                 <div className="h-0.5 bg-yellow-500 scale-x-0 group-hover:scale-x-100 transition-transform origin-left"></div>
               </div>
               <div className="group">
-                <Link href="/calendar" className="text-white ">
+                <Link href="/colleges" className="text-white ">
                 Colleges
                 </Link>
                 <div className="h-0.5 bg-yellow-500 scale-x-0 group-hover:scale-x-100 transition-transform origin-left"></div>
               </div>
 
               <div className="group">
-                <Link href="/calendar" className="text-white ">
+                <Link href="/exams" className="text-white ">
                 Exams
                 </Link>
                 <div className="h-0.5 bg-yellow-500 scale-x-0 group-hover:scale-x-100 transition-transform origin-left"></div>
               </div>
 
               <div className="group">
-                <Link href="/calendar" className="text-white ">
+                <Link href="/resources" className="text-white ">
                 Resources
                 </Link>
                 <div className="h-0.5 bg-yellow-500 scale-x-0 group-hover:scale-x-100 transition-transform origin-left"></div>
               </div>
 
               <div className="group">
-                <Link href="/calendar" className="text-white ">
+                <Link href="/contact" className="text-white ">
                 Contact Us
                 </Link>
                 <div className="h-0.5 bg-yellow-500 scale-x-0 group-hover:scale-x-100 transition-transform origin-left"></div>

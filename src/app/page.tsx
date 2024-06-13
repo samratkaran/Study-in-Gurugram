@@ -8,7 +8,7 @@ import whous from "@/Assets/who-we-are.png";
 import Image from "next/image";
 import NewsHome from "@/components/homepage/NewsHome";
 import news from "@/Assets/news.png"
-import CollegeCard from "@/components/homepage/Coursescard/CollegeCard";
+// import CollegeCard from "@/components/homepage/Coursescard/CollegeCard";
 import CarouselCollege from "@/components/homepage/Coursescard/CarouselCollege"
 import CollegeImage from "@/Assets/collegeImage.png"
 import ServicesSection from "@/components/homepage/ServiceSection";
@@ -17,6 +17,7 @@ import ImageOne from "@/Assets/imgaeOne.png"
 import ImageTwo from "@/Assets/ImageTwo.png"
 import ImageThree from "@/Assets/ImageThree.png"
 import TestimonialCarousel from "@/components/homepage/TestimonialCarousel";
+import Newsletter from "@/components/homepage/NewsLetter";
 
 export default function Home() {
 
@@ -91,8 +92,8 @@ export default function Home() {
           <h1 className="text-center  text-6xl font-black text-white">
             Who we are?
           </h1>
-          <div className="flex justify-center items-center gap-20">
-            <h2 className=" text-justify text-8xl font-black text-white">
+          <div className="flex justify-center items-center gap-20 px-12">
+            <h2 className=" text-justify text-7xl font-black text-white">
               Your <br />
               Gateway <br />
               to a <br />
@@ -179,6 +180,9 @@ export default function Home() {
      
     </div>
         </div>
+        <div className="container mx-auto p-4">
+      <Newsletter />
+    </div>
       </div>
     </main>
   );
