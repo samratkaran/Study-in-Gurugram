@@ -104,7 +104,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="Happening in Gurugram mt-40">
+        {/* <div className="Happening in Gurugram mt-40">
           <HeadText className="mb-4" textvalue="See Whats " />
           <HeadText className=" mt-0" textvalue="Happening in Gurugram" />
 
@@ -153,7 +153,7 @@ export default function Home() {
          <div className=" pt-8 w-full flex justify-center ">
          <button className="btn btn-warning" color="white">View More</button>
          </div>
-        </div>
+        </div> */}
         <div className="top colleges mt-32" >
           <HeadText textvalue="Top Colleges"/>
           <div className="p-4">

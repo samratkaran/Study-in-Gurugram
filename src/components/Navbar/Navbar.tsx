@@ -17,15 +17,30 @@ const Navbar = () => {
         <div className="pl-4">
           <Image src={StudyinGurugramLogo} alt='' />
         </div>
-        <div className="flex flex-col gap-1 pr-6 ">
-          <div className="flex justify-center items-center gap-2 ">
+        <div className="flex  gap-10 pr-6  ">
+          <div className='d-flex '>
+             <div className="group">
+                <Link href="/about" className="text-black ">
+                About Us
+                </Link>
+                <div className="h-0.5 bg-yellow-500 scale-x-0 group-hover:scale-x-100 transition-transform origin-left"></div>
+              </div>
+
+               <div className="group">
+                <Link href="/contact" className="text-black ">
+                Contact Us
+                </Link>
+                <div className="h-0.5 bg-yellow-500 scale-x-0 group-hover:scale-x-100 transition-transform origin-left"></div>
+              </div>
+          </div>
+          <div><div className="flex justify-center items-center gap-2 ">
             <FaPhoneSquareAlt />
             <p>00000000000</p>
           </div>
           <div className="flex justify-center items-center gap-2">
             <MdEmail />
             <p>infgo@lorem11</p>
-          </div>
+          </div></div>
         </div>
       </div>
 
@@ -39,12 +54,7 @@ const Navbar = () => {
                 </Link>
                 <div className="h-0.5 bg-yellow-500 scale-x-0 group-hover:scale-x-100 transition-transform origin-left"></div>
               </div>
-              <div className="group">
-                <Link href="/about" className="text-white ">
-                About Us
-                </Link>
-                <div className="h-0.5 bg-yellow-500 scale-x-0 group-hover:scale-x-100 transition-transform origin-left"></div>
-              </div>
+             
               <div className="group">
                 <Link href="/universities" className="text-white ">
                 Universities
@@ -72,12 +82,7 @@ const Navbar = () => {
                 <div className="h-0.5 bg-yellow-500 scale-x-0 group-hover:scale-x-100 transition-transform origin-left"></div>
               </div>
 
-              <div className="group">
-                <Link href="/contact" className="text-white ">
-                Contact Us
-                </Link>
-                <div className="h-0.5 bg-yellow-500 scale-x-0 group-hover:scale-x-100 transition-transform origin-left"></div>
-              </div>
+             
 
               
             </nav>
@@ -87,7 +92,7 @@ const Navbar = () => {
     <input
       type="text"
       placeholder="Search"
-      className="bg-gray-100 border border-gray-300 rounded-md py-2 pl-3 pr-10 focus:outline-none w-44  sm:text-sm sm:py-1"
+      className="bg-gray-100 border border-gray-300 rounded-md py-2 pl-3 pr-10 focus:outline-none search-bar-navbar  sm:text-sm sm:py-1"
     />
     <FaSearch className="absolute top-2.5 right-3 text-gray-500 sm:top-1.5 cursor-pointer" />
   </div>
